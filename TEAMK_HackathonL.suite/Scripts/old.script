@@ -1,0 +1,35 @@
+﻿to selectItem
+	main.navigate (global product),("SKU")
+end selectItem
+
+to addToCart
+	main.navigate ("ADD TO CART")
+end addToCart
+
+to shoppingCart
+	main.navigate ("Shopping cart"),("Update shopping cart")
+end shoppingCart
+
+to checkout
+	main.navigate ("I agree with the terms of service")
+	main.navigate ("CHECKOUT"),("Welcome, Please Sign In!")
+end checkout
+
+to search item
+	main.textEntry ("Search store"),(item)
+	wait 2
+	waitfor 20, text:"Categories",searchRectangle:(1,79,1273,982)
+end search
+
+to mainMenu parent, child
+	moveto text:parent,searchRectangle:(1,79,1273,982)
+	wait 1
+	main.navigate (child),("Categories")
+end mainMenu
+
+to register
+	main.navigate ("Register"),("Your Personal Details")
+end register
+
+
+log connectioninfo()

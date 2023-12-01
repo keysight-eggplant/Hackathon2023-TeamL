@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="apiProduct_script" package="hackathon.suite" timestamp="2023-11-24 13:14:22.214 +0000"
+ tests="1"  failures="0" errors="0" time="0.082455">
+  <properties>
+   <property name="RunDate" value="2023-11-24 13:14:22.214 +0000"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="apiProduct.script" assertions="1" status="success"  time="0.073112">
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,66 @@
+﻿2023-11-24 16:46:45.885 +0000	START		Running test.script
+2023-11-24 16:46:46.940 +0000	moveto	(TEXT:"Computers")	at (514, 430)	2	on_mainmenu	DAI/home.script
+2023-11-24 16:46:48.715 +0000	imagefound	(TEXT:"Desktops & Notebooks")	found at (564, 474)	3	function_scrollto	main.script
+2023-11-24 16:46:48.804 +0000	click		at (564, 474)	2	on_navigate	main.script
+2023-11-24 16:46:51.462 +0000	waitfor	(TEXT:"Sort by")	found at (436, 679)	5	on_navigate	main.script
+2023-11-24 16:46:51.519 +0000	Log		Computers	2	on_fetch	apiProduct.script
+2023-11-24 16:46:51.653 +0000	Log		HP Envy 6-1180ca 15.6-Inch Sleekbook	2	on_selectitem	DAI/itemsPage.script
+2023-11-24 16:46:54.584 +0000	imagefound	(TEXT:"HP Envy 6-1180ca 15.6-Inch Sleekbook")	Unable to Find Image (TEXT:"HP Envy 6-1180ca 15.6-Inch Sleekbook") within 0.00 seconds. Text not found.	3	function_scrollto	main.script
+2023-11-24 16:46:54.601 +0000	typetext		[pageDown]	4	function_scrollto	main.script
+2023-11-24 16:46:57.284 +0000	imagefound	(TEXT:"HP Envy 6-1180ca 15.6-Inch Sleekbook")	found at (988, 535)	7	function_scrollto	main.script
+2023-11-24 16:46:57.374 +0000	click		at (988, 535)	2	on_navigate	main.script
+2023-11-24 16:47:00.078 +0000	waitfor	(TEXT:"SKU")	found at (625, 934)	5	on_navigate	main.script
+2023-11-24 16:47:00.143 +0000	Log		["https://nopcommerce.eggplantlab.com/images/thumbs/0000030_hp-envy-6-1180ca-156-inch-sleekbook.jpeg"]	2	on_validate	DAI/itemPage.script
+2023-11-24 16:47:03.016 +0000	imagefound	(TEXT:"HP_ESB_15")	found at (687, 935)	8	on_validate	DAI/itemPage.script
+2023-11-24 16:47:03.016 +0000	LogSuccess		Assertion Succeeded: (true: imagefound(0,text:global product.SKU))	8	on_validate	DAI/itemPage.script
+2023-11-24 16:47:03.024 +0000	set		SCALEFACTORS = [0.75,1.2]	14	on_validate	DAI/itemPage.script
+2023-11-24 16:47:04.070 +0000	imagefound	temp/product	found at (509, 981)	15	on_validate	DAI/itemPage.script
+2023-11-24 16:47:04.071 +0000	LogSuccess		Assertion Succeeded: (true: imagefound(0,image:"temp/product",imageTolerance:95,searchType:"Adaptive to Image"))	15	on_validate	DAI/itemPage.script
+2023-11-24 16:47:04.719 +0000	moveto	(TEXT:"Computers")	at (514, 430)	2	on_mainmenu	DAI/home.script
+2023-11-24 16:47:06.406 +0000	imagefound	(TEXT:"Desktops & Notebooks")	found at (564, 474)	3	function_scrollto	main.script
+2023-11-24 16:47:06.493 +0000	click		at (564, 474)	2	on_navigate	main.script
+2023-11-24 16:47:09.142 +0000	waitfor	(TEXT:"Sort by")	found at (436, 679)	5	on_navigate	main.script
+2023-11-24 16:47:09.188 +0000	Log		Computers	2	on_fetch	apiProduct.script
+2023-11-24 16:47:09.336 +0000	Log		HP Spectre XT Pro UltraBook	2	on_selectitem	DAI/itemsPage.script
+2023-11-24 16:47:12.322 +0000	imagefound	(TEXT:"HP Spectre XT Pro UltraBook")	Unable to Find Image (TEXT:"HP Spectre XT Pro UltraBook") within 0.00 seconds. Text not found.	3	function_scrollto	main.script
+2023-11-24 16:47:12.338 +0000	typetext		[pageDown]	4	function_scrollto	main.script
+2023-11-24 16:47:15.571 +0000	imagefound	(TEXT:"HP Spectre XT Pro UltraBook")	found at (729, 1005)	7	function_scrollto	main.script
+2023-11-24 16:47:15.657 +0000	click		at (729, 1005)	2	on_navigate	main.script
+2023-11-24 16:47:18.022 +0000	waitfor	(TEXT:"SKU")	found at (625, 878)	5	on_navigate	main.script
+2023-11-24 16:47:18.073 +0000	Log		["https://nopcommerce.eggplantlab.com/images/thumbs/0000028_hp-spectre-xt-pro-ultrabook.jpeg","https://nopcommerce.eggplantlab.com/images/thumbs/0000029_hp-spectre-xt-pro-ultrabook.jpeg"]	2	on_validate	DAI/itemPage.script
+2023-11-24 16:47:20.653 +0000	imagefound	(TEXT:"HP_SPX_UB")	found at (689, 878)	8	on_validate	DAI/itemPage.script
+2023-11-24 16:47:20.654 +0000	LogSuccess		Assertion Succeeded: (true: imagefound(0,text:global product.SKU))	8	on_validate	DAI/itemPage.script
+2023-11-24 16:47:20.662 +0000	set		SCALEFACTORS = [0.75,1.2]	14	on_validate	DAI/itemPage.script
+2023-11-24 16:47:21.775 +0000	imagefound	temp/product	found at (500, 910)	15	on_validate	DAI/itemPage.script
+2023-11-24 16:47:21.776 +0000	LogSuccess		Assertion Succeeded: (true: imagefound(0,image:"temp/product",imageTolerance:95,searchType:"Adaptive to Image"))	15	on_validate	DAI/itemPage.script
+2023-11-24 16:47:22.343 +0000	moveto	(TEXT:"Computers")	at (514, 430)	2	on_mainmenu	DAI/home.script
+2023-11-24 16:47:24.187 +0000	imagefound	(TEXT:"Desktops & Notebooks")	found at (564, 474)	3	function_scrollto	main.script
+2023-11-24 16:47:24.274 +0000	click		at (564, 474)	2	on_navigate	main.script
+2023-11-24 16:47:26.920 +0000	waitfor	(TEXT:"Sort by")	found at (436, 679)	5	on_navigate	main.script
+2023-11-24 16:47:26.967 +0000	Log		Computers	2	on_fetch	apiProduct.script
+2023-11-24 16:47:27.102 +0000	Log		HP Spectre XT Pro UltraBook	2	on_selectitem	DAI/itemsPage.script
+2023-11-24 16:47:30.020 +0000	imagefound	(TEXT:"HP Spectre XT Pro UltraBook")	Unable to Find Image (TEXT:"HP Spectre XT Pro UltraBook") within 0.00 seconds. Text not found.	3	function_scrollto	main.script
+2023-11-24 16:47:30.037 +0000	typetext		[pageDown]	4	function_scrollto	main.script
+2023-11-24 16:47:32.981 +0000	imagefound	(TEXT:"HP Spectre XT Pro UltraBook")	found at (283, 774)	7	function_scrollto	main.script
+2023-11-24 16:47:33.071 +0000	click		at (283, 774)	2	on_navigate	main.script
+2023-11-24 16:47:35.605 +0000	waitfor	(TEXT:"SKU")	found at (625, 878)	5	on_navigate	main.script
+2023-11-24 16:47:35.654 +0000	Log		["https://nopcommerce.eggplantlab.com/images/thumbs/0000028_hp-spectre-xt-pro-ultrabook.jpeg","https://nopcommerce.eggplantlab.com/images/thumbs/0000029_hp-spectre-xt-pro-ultrabook.jpeg"]	2	on_validate	DAI/itemPage.script
+2023-11-24 16:47:38.433 +0000	imagefound	(TEXT:"HP_SPX_UB")	found at (689, 878)	8	on_validate	DAI/itemPage.script
+2023-11-24 16:47:38.434 +0000	LogSuccess		Assertion Succeeded: (true: imagefound(0,text:global product.SKU))	8	on_validate	DAI/itemPage.script
+2023-11-24 16:47:38.442 +0000	set		SCALEFACTORS = [0.75,1.2]	14	on_validate	DAI/itemPage.script
+2023-11-24 16:47:39.541 +0000	imagefound	temp/product	found at (500, 910)	15	on_validate	DAI/itemPage.script
+2023-11-24 16:47:39.542 +0000	LogSuccess		Assertion Succeeded: (true: imagefound(0,image:"temp/product",imageTolerance:95,searchType:"Adaptive to Image"))	15	on_validate	DAI/itemPage.script
+2023-11-24 16:47:40.140 +0000	moveto	(TEXT:"Computers")	at (514, 430)	2	on_mainmenu	DAI/home.script
+2023-11-24 16:47:41.985 +0000	imagefound	(TEXT:"Desktops & Notebooks")	found at (564, 474)	3	function_scrollto	main.script
+2023-11-24 16:47:42.073 +0000	click		at (564, 474)	2	on_navigate	main.script
+2023-11-24 16:47:44.801 +0000	waitfor	(TEXT:"Sort by")	found at (436, 679)	5	on_navigate	main.script
+2023-11-24 16:47:44.847 +0000	Log		Computers	2	on_fetch	apiProduct.script
+2023-11-24 16:47:44.984 +0000	Log		Digital Storm VANQUISH 3 Custom Performance PC	2	on_selectitem	DAI/itemsPage.script
+2023-11-24 16:47:46.473 +0000	imagefound	(TEXT:"Digital Storm VANQUISH 3 Custom Performance PC")	found at (521, 1011)	3	function_scrollto	main.script
+2023-11-24 16:47:46.561 +0000	click		at (521, 1011)	2	on_navigate	main.script
+2023-11-24 16:47:50.359 +0000	waitfor	(TEXT:"SKU")	found at (625, 796)	5	on_navigate	main.script
+2023-11-24 16:47:50.408 +0000	Log		["https://nopcommerce.eggplantlab.com/images/thumbs/0000022_digital-storm-vanquish-3-custom-performance-pc.jpeg"]	2	on_validate	DAI/itemPage.script
+2023-11-24 16:47:56.601 +0000	imagefound	(TEXT:"DS_VA3_PC")	Unable to Find Image (TEXT:"DS_VA3_PC") within 0.00 seconds. Text not found.	8	on_validate	DAI/itemPage.script
+2023-11-24 16:47:56.641 +0000	EndTestCase		(Duration:"70.755051", Errors:"1", Exceptions:"0", StartTime:"2023-11-24 16:46:45 +0000", Successes:"6", TestCase:"test.script", Warnings:"0")
+2023-11-24 16:47:56.711 +0000	Error Screen	/Users/markfernee/Downloads/Hackathon.suite/Results/test/20231124_164645.882/Screen_Error.png	CapturedErrorScreenshot	F63D1379-5B0F-4A6F-8ECB-9C64DBE379A7
+2023-11-24 16:47:56.713 +0000	FAILURE	Screen_Error.png	AssertionFailed: (false: imagefound(0,text:global product.SKU)) -- Execution Time 0:01:10 test.script

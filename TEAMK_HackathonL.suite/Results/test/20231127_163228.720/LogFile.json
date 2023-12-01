@@ -1,0 +1,198 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running test.script",
+      "timestamp" : "2023-11-27 16:32:28.723 +0000"
+    },
+    {
+      "handlerName" : "on_test",
+      "message" : "REMOTEWORKINTERVAL = 0.2",
+      "timestamp" : "2023-11-27 16:32:28.802 +0000",
+      "identifier" : "set",
+      "scriptName" : "test.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_mainmenu",
+      "message" : "at (326, 522)",
+      "identifier" : "moveto",
+      "image" : "(TEXT:\"Electronics\")",
+      "handlerLine" : 2,
+      "timestamp" : "2023-11-27 16:32:29.501 +0000",
+      "scriptName" : "DAI\/home.script"
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "found at (461, 522)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"Camera & Phones\")",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-27 16:32:31.311 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "at (461, 522)",
+      "timestamp" : "2023-11-27 16:32:31.399 +0000",
+      "identifier" : "click",
+      "scriptName" : "main.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "found at (545, 679)",
+      "identifier" : "waitfor",
+      "image" : "(TEXT:\"Sort by\")",
+      "handlerLine" : 5,
+      "timestamp" : "2023-11-27 16:32:34.013 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_fetch",
+      "message" : "Electronics",
+      "timestamp" : "2023-11-27 16:32:34.088 +0000",
+      "identifier" : "Log",
+      "scriptName" : "apiProduct.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_selectitem",
+      "message" : "HTC One Mini Blue",
+      "timestamp" : "2023-11-27 16:32:34.242 +0000",
+      "identifier" : "Log",
+      "scriptName" : "DAI\/itemsPage.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "Unable to Find Image (TEXT:\"HTC One Mini Blue\") within 0.00 seconds. Text not found.",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"HTC One Mini Blue\")",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-27 16:32:37.003 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "[pageDown]",
+      "timestamp" : "2023-11-27 16:32:37.019 +0000",
+      "identifier" : "typetext",
+      "scriptName" : "main.script",
+      "handlerLine" : 4
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "found at (603, 1151)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"HTC One Mini Blue\")",
+      "handlerLine" : 7,
+      "timestamp" : "2023-11-27 16:32:40.103 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "at (603, 1151)",
+      "timestamp" : "2023-11-27 16:32:40.197 +0000",
+      "identifier" : "click",
+      "scriptName" : "main.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "found at (781, 820)",
+      "identifier" : "waitfor",
+      "image" : "(TEXT:\"SKU\")",
+      "handlerLine" : 5,
+      "timestamp" : "2023-11-27 16:32:43.955 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "[\"https:\/\/nopcommerce.eggplantlab.com\/images\/thumbs\/0000042_htc-one-mini-blue_550.jpeg\",\"https:\/\/nopcommerce.eggplantlab.com\/images\/thumbs\/0000043_htc-one-mini-blue_550.jpeg\"]",
+      "timestamp" : "2023-11-27 16:32:44.014 +0000",
+      "identifier" : "Log",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "found at (845, 822)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"OM_HTC_BL\")",
+      "handlerLine" : 8,
+      "timestamp" : "2023-11-27 16:32:47.496 +0000",
+      "scriptName" : "DAI\/itemPage.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "Assertion Succeeded: (true: imagefound(0,text:global product.SKU))",
+      "timestamp" : "2023-11-27 16:32:47.497 +0000",
+      "identifier" : "LogSuccess",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 8
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "found at (794, 860)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"100\")",
+      "handlerLine" : 9,
+      "timestamp" : "2023-11-27 16:32:49.816 +0000",
+      "scriptName" : "DAI\/itemPage.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "Assertion Succeeded: (true: imagefound(0,text:global product.Price))",
+      "timestamp" : "2023-11-27 16:32:49.817 +0000",
+      "identifier" : "LogSuccess",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 9
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "found at (693, 1085)",
+      "identifier" : "imagefound",
+      "image" : "temp\/product",
+      "handlerLine" : 14,
+      "timestamp" : "2023-11-27 16:32:50.267 +0000",
+      "scriptName" : "DAI\/itemPage.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "Assertion Succeeded: (true: imagefound(0,image:\"temp\/product\",SearchType:\"Smoothed for Text\",adaptiveImageTolerance:70))",
+      "timestamp" : "2023-11-27 16:32:50.267 +0000",
+      "identifier" : "LogSuccess",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_mainmenu",
+      "message" : "at (326, 522)",
+      "identifier" : "moveto",
+      "image" : "(TEXT:\"Electronics\")",
+      "handlerLine" : 2,
+      "timestamp" : "2023-11-27 16:32:51.886 +0000",
+      "scriptName" : "DAI\/home.script"
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "Searching For Image: OCR Error: OCR operation was aborted",
+      "timestamp" : "2023-11-27 16:32:54.080 +0000",
+      "identifier" : "Exception",
+      "scriptName" : "main.script",
+      "handlerLine" : 3
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"25.423054\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2023-11-27 16:32:28 +0000\", Successes:\"3\", TestCase:\"test.script\", Warnings:\"0\")",
+      "timestamp" : "2023-11-27 16:32:54.156 +0000"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:00:25 test.script",
+      "timestamp" : "2023-11-27 16:32:54.159 +0000"
+    }
+  ],
+  "createdTimestamp" : "2023-11-27 16:32:28.725 +0000"
+}

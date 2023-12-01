@@ -1,0 +1,19 @@
+﻿2023-11-24 16:38:07.973 +0000	START		Running test.script
+2023-11-24 16:38:08.796 +0000	moveto	(TEXT:"Computers")	at (514, 430)	2	on_mainmenu	DAI/home.script
+2023-11-24 16:38:10.583 +0000	imagefound	(TEXT:"Desktops & Notebooks")	found at (564, 474)	3	function_scrollto	main.script
+2023-11-24 16:38:10.670 +0000	click		at (564, 474)	2	on_navigate	main.script
+2023-11-24 16:38:13.262 +0000	waitfor	(TEXT:"Sort by")	found at (436, 679)	5	on_navigate	main.script
+2023-11-24 16:38:13.309 +0000	Log		Computers	2	on_fetch	apiProduct.script
+2023-11-24 16:38:13.440 +0000	Log		HP Spectre XT Pro UltraBook	2	on_selectitem	DAI/itemsPage.script
+2023-11-24 16:38:16.328 +0000	imagefound	(TEXT:"HP Spectre XT Pro UltraBook")	Unable to Find Image (TEXT:"HP Spectre XT Pro UltraBook") within 0.00 seconds. Text not found.	3	function_scrollto	main.script
+2023-11-24 16:38:16.344 +0000	typetext		[pageDown]	4	function_scrollto	main.script
+2023-11-24 16:38:19.590 +0000	imagefound	(TEXT:"HP Spectre XT Pro UltraBook")	found at (729, 1005)	7	function_scrollto	main.script
+2023-11-24 16:38:19.677 +0000	click		at (729, 1005)	2	on_navigate	main.script
+2023-11-24 16:38:22.312 +0000	waitfor	(TEXT:"SKU")	found at (625, 878)	5	on_navigate	main.script
+2023-11-24 16:38:22.361 +0000	Log		["https://nopcommerce.eggplantlab.com/images/thumbs/0000028_hp-spectre-xt-pro-ultrabook.jpeg","https://nopcommerce.eggplantlab.com/images/thumbs/0000029_hp-spectre-xt-pro-ultrabook.jpeg"]	2	on_validate	DAI/itemPage.script
+2023-11-24 16:38:24.172 +0000	imagefound	(TEXT:"HP_SPX_UB")	found at (689, 878)	7	on_validate	DAI/itemPage.script
+2023-11-24 16:38:24.173 +0000	LogSuccess		Assertion Succeeded: (true: imagefound(0,text:global product.SKU))	7	on_validate	DAI/itemPage.script
+2023-11-24 16:38:24.791 +0000	imagefound	temp/product	Unable to Find Image temp/product within 0.00 seconds	14	on_validate	DAI/itemPage.script
+2023-11-24 16:38:24.827 +0000	EndTestCase		(Duration:"16.851676", Errors:"1", Exceptions:"0", StartTime:"2023-11-24 16:38:07 +0000", Successes:"1", TestCase:"test.script", Warnings:"0")
+2023-11-24 16:38:24.896 +0000	Error Screen	/Users/markfernee/Downloads/Hackathon.suite/Results/test/20231124_163807.971/Screen_Error.png	CapturedErrorScreenshot	F30AE3C6-3FBD-4F34-9EAF-5F22BAE459F8
+2023-11-24 16:38:24.897 +0000	FAILURE	Screen_Error.png	AssertionFailed: (false: imagefound(0,image:"temp/product",imageTolerance:95,searchType:"Adaptive to Image")) -- Execution Time 0:00:16 test.script

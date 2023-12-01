@@ -1,0 +1,15 @@
+﻿to register
+	main.navigate ("Register"),("Your Personal Details")
+end register
+
+// delete 
+to menuOptions category,subcategory
+	mainMenu (category),(subCategory)
+end menuOptions
+
+to mainMenu category, subCategory
+	moveto text:category,searchRectangle:(1,75,1600,1159)
+	wait 1
+	main.navigate (subCategory),("Sort by")
+	apiProduct.fetch (category),(subCategory)
+end mainMenu

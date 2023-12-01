@@ -1,0 +1,24 @@
+﻿2023-11-27 16:32:28.723 +0000	START		Running test.script
+2023-11-27 16:32:28.802 +0000	set		REMOTEWORKINTERVAL = 0.2	2	on_test	test.script
+2023-11-27 16:32:29.501 +0000	moveto	(TEXT:"Electronics")	at (326, 522)	2	on_mainmenu	DAI/home.script
+2023-11-27 16:32:31.311 +0000	imagefound	(TEXT:"Camera & Phones")	found at (461, 522)	3	function_scrollto	main.script
+2023-11-27 16:32:31.399 +0000	click		at (461, 522)	2	on_navigate	main.script
+2023-11-27 16:32:34.013 +0000	waitfor	(TEXT:"Sort by")	found at (545, 679)	5	on_navigate	main.script
+2023-11-27 16:32:34.088 +0000	Log		Electronics	2	on_fetch	apiProduct.script
+2023-11-27 16:32:34.242 +0000	Log		HTC One Mini Blue	2	on_selectitem	DAI/itemsPage.script
+2023-11-27 16:32:37.003 +0000	imagefound	(TEXT:"HTC One Mini Blue")	Unable to Find Image (TEXT:"HTC One Mini Blue") within 0.00 seconds. Text not found.	3	function_scrollto	main.script
+2023-11-27 16:32:37.019 +0000	typetext		[pageDown]	4	function_scrollto	main.script
+2023-11-27 16:32:40.103 +0000	imagefound	(TEXT:"HTC One Mini Blue")	found at (603, 1151)	7	function_scrollto	main.script
+2023-11-27 16:32:40.197 +0000	click		at (603, 1151)	2	on_navigate	main.script
+2023-11-27 16:32:43.955 +0000	waitfor	(TEXT:"SKU")	found at (781, 820)	5	on_navigate	main.script
+2023-11-27 16:32:44.014 +0000	Log		["https://nopcommerce.eggplantlab.com/images/thumbs/0000042_htc-one-mini-blue_550.jpeg","https://nopcommerce.eggplantlab.com/images/thumbs/0000043_htc-one-mini-blue_550.jpeg"]	2	on_validate	DAI/itemPage.script
+2023-11-27 16:32:47.496 +0000	imagefound	(TEXT:"OM_HTC_BL")	found at (845, 822)	8	on_validate	DAI/itemPage.script
+2023-11-27 16:32:47.497 +0000	LogSuccess		Assertion Succeeded: (true: imagefound(0,text:global product.SKU))	8	on_validate	DAI/itemPage.script
+2023-11-27 16:32:49.816 +0000	imagefound	(TEXT:"100")	found at (794, 860)	9	on_validate	DAI/itemPage.script
+2023-11-27 16:32:49.817 +0000	LogSuccess		Assertion Succeeded: (true: imagefound(0,text:global product.Price))	9	on_validate	DAI/itemPage.script
+2023-11-27 16:32:50.267 +0000	imagefound	temp/product	found at (693, 1085)	14	on_validate	DAI/itemPage.script
+2023-11-27 16:32:50.267 +0000	LogSuccess		Assertion Succeeded: (true: imagefound(0,image:"temp/product",SearchType:"Smoothed for Text",adaptiveImageTolerance:70))	14	on_validate	DAI/itemPage.script
+2023-11-27 16:32:51.886 +0000	moveto	(TEXT:"Electronics")	at (326, 522)	2	on_mainmenu	DAI/home.script
+2023-11-27 16:32:54.080 +0000	Exception		Searching For Image: OCR Error: OCR operation was aborted	3	function_scrollto	main.script
+2023-11-27 16:32:54.156 +0000	EndTestCase		(Duration:"25.423054", Errors:"1", Exceptions:"1", StartTime:"2023-11-27 16:32:28 +0000", Successes:"3", TestCase:"test.script", Warnings:"0")
+2023-11-27 16:32:54.159 +0000	ABORTED		Execution Time 0:00:25 test.script

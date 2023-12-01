@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2023-11-22 10:36:35 +0000";
+    CaptureHost = "HCK-SUTS-005";
+    CaptureScreenSize = (
+        1280,
+        1024);
+    HasAlpha = 1;
+    HotSpotX = 87;
+    HotSpotY = 105;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 146;
+    OriginalLocationY = 157;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "logos/NopLogo";
+    tags = ();
+}

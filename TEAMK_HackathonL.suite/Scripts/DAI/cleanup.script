@@ -1,0 +1,4 @@
+﻿if imagefound(0, "icons/refresh")
+	typetext altkey,f4
+	wait 2
+end if

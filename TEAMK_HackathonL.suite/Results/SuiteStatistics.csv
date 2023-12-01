@@ -1,0 +1,3 @@
+﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
+apiProduct,Success,2,0,2023-11-22 11:35:36 +0000,2023-11-24 13:14:22 +0000,0:00:00
+test,Failure,6,6,2023-11-24 16:35:57 +0000,2023-11-24 17:07:11 +0000,0:00:00

@@ -1,0 +1,32 @@
+﻿2023-11-24 16:56:35.792 +0000	START		Running test.script
+2023-11-24 16:56:37.984 +0000	moveto	(TEXT:"Computers")	at (514, 430)	2	on_mainmenu	DAI/home.script
+2023-11-24 16:56:40.339 +0000	imagefound	(TEXT:"Desktops & Notebooks")	found at (564, 474)	3	function_scrollto	main.script
+2023-11-24 16:56:40.428 +0000	click		at (564, 474)	2	on_navigate	main.script
+2023-11-24 16:56:43.044 +0000	waitfor	(TEXT:"Sort by")	found at (436, 679)	5	on_navigate	main.script
+2023-11-24 16:56:43.094 +0000	Log		Computers	2	on_fetch	apiProduct.script
+2023-11-24 16:56:43.232 +0000	Log		Lenovo Thinkpad X1 Carbon Laptop	2	on_selectitem	DAI/itemsPage.script
+2023-11-24 16:56:46.061 +0000	imagefound	(TEXT:"Lenovo Thinkpad X1 Carbon Laptop")	Unable to Find Image (TEXT:"Lenovo Thinkpad X1 Carbon Laptop") within 0.00 seconds. Text not found.	3	function_scrollto	main.script
+2023-11-24 16:56:46.079 +0000	typetext		[pageDown]	4	function_scrollto	main.script
+2023-11-24 16:56:49.420 +0000	imagefound	(TEXT:"Lenovo Thinkpad X1 Carbon Laptop")	found at (972, 1006)	7	function_scrollto	main.script
+2023-11-24 16:56:49.508 +0000	click		at (972, 1006)	2	on_navigate	main.script
+2023-11-24 16:56:52.004 +0000	waitfor	(TEXT:"SKU")	found at (625, 820)	5	on_navigate	main.script
+2023-11-24 16:56:52.056 +0000	Log		["https://nopcommerce.eggplantlab.com/images/thumbs/0000031_lenovo-thinkpad-x1-carbon-laptop.jpeg"]	2	on_validate	DAI/itemPage.script
+2023-11-24 16:56:54.307 +0000	imagefound	(TEXT:"LE_TX1_CL")	found at (686, 820)	8	on_validate	DAI/itemPage.script
+2023-11-24 16:56:54.308 +0000	LogSuccess		Assertion Succeeded: (true: imagefound(0,text:global product.SKU))	8	on_validate	DAI/itemPage.script
+2023-11-24 16:56:54.316 +0000	set		SCALEFACTORS = [0.75,1.2]	14	on_validate	DAI/itemPage.script
+2023-11-24 16:56:55.355 +0000	imagefound	temp/product	found at (500, 906)	15	on_validate	DAI/itemPage.script
+2023-11-24 16:56:55.356 +0000	LogSuccess		Assertion Succeeded: (true: imagefound(0,image:"temp/product",imageTolerance:95,searchType:"Adaptive to Image"))	15	on_validate	DAI/itemPage.script
+2023-11-24 16:56:55.923 +0000	moveto	(TEXT:"Computers")	at (514, 430)	2	on_mainmenu	DAI/home.script
+2023-11-24 16:56:57.773 +0000	imagefound	(TEXT:"Desktops & Notebooks")	found at (564, 474)	3	function_scrollto	main.script
+2023-11-24 16:56:57.861 +0000	click		at (564, 474)	2	on_navigate	main.script
+2023-11-24 16:57:00.451 +0000	waitfor	(TEXT:"Sort by")	found at (436, 679)	5	on_navigate	main.script
+2023-11-24 16:57:00.499 +0000	Log		Computers	2	on_fetch	apiProduct.script
+2023-11-24 16:57:00.731 +0000	Log		Digital Storm VANQUISH 3 Custom Performance PC	2	on_selectitem	DAI/itemsPage.script
+2023-11-24 16:57:01.977 +0000	imagefound	(TEXT:"Digital Storm VANQUISH 3 Custom Performance PC")	found at (521, 1011)	3	function_scrollto	main.script
+2023-11-24 16:57:02.067 +0000	click		at (521, 1011)	2	on_navigate	main.script
+2023-11-24 16:57:06.112 +0000	waitfor	(TEXT:"SKU")	found at (625, 796)	5	on_navigate	main.script
+2023-11-24 16:57:06.161 +0000	Log		["https://nopcommerce.eggplantlab.com/images/thumbs/0000022_digital-storm-vanquish-3-custom-performance-pc.jpeg"]	2	on_validate	DAI/itemPage.script
+2023-11-24 16:57:12.250 +0000	imagefound	(TEXT:"DS_VA3_PC")	Unable to Find Image (TEXT:"DS_VA3_PC") within 0.00 seconds. Text not found.	8	on_validate	DAI/itemPage.script
+2023-11-24 16:57:12.295 +0000	EndTestCase		(Duration:"36.501212", Errors:"1", Exceptions:"0", StartTime:"2023-11-24 16:56:35 +0000", Successes:"2", TestCase:"test.script", Warnings:"0")
+2023-11-24 16:57:12.372 +0000	Error Screen	/Users/markfernee/Downloads/Hackathon.suite/Results/test/20231124_165635.783/Screen_Error.png	CapturedErrorScreenshot	4521163C-D0BE-4F5D-B64C-64746C506F3A
+2023-11-24 16:57:12.373 +0000	FAILURE	Screen_Error.png	AssertionFailed: (false: imagefound(0,text:global product.SKU)) -- Execution Time 0:00:36 test.script

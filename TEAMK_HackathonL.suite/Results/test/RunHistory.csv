@@ -1,0 +1,9 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2023-11-24 16:35:21.441 +0000,"Aborted",0:00:19,1,1,1,"20231124_163521.441/LogFile.txt","","",0
+2023-11-24 16:35:57.407 +0000,"Failure",0:00:20,1,0,0,"20231124_163557.407/LogFile.txt","","AssertionFailed -- (false: imagefound(0,text:global product.Price))",1
+2023-11-24 16:38:07.971 +0000,"Failure",0:00:16,1,0,0,"20231124_163807.971/LogFile.txt","","AssertionFailed -- (false: imagefound(0,image:""temp/product"",imageTolerance:95,searchType:""Adaptive to Image""))",1
+2023-11-24 16:46:45.882 +0000,"Failure",0:01:10,1,0,0,"20231124_164645.882/LogFile.txt","","AssertionFailed -- (false: imagefound(0,text:global product.SKU))",6
+2023-11-24 16:56:35.783 +0000,"Failure",0:00:36,1,0,0,"20231124_165635.783/LogFile.txt","","AssertionFailed -- (false: imagefound(0,text:global product.SKU))",2
+2023-11-24 16:57:14.727 +0000,"Failure",0:00:57,1,0,0,"20231124_165714.727/LogFile.txt","","AssertionFailed -- (false: imagefound(0,image:""temp/product"",imageTolerance:95,searchType:""Adaptive to Image""))",5
+2023-11-24 17:07:11.228 +0000,"Failure",0:00:38,1,0,0,"20231124_170711.228/LogFile.txt","","AssertionFailed -- (false: imagefound(0,text:global product.SKU))",2
+2023-11-27 16:32:28.720 +0000,"Aborted",0:00:25,1,0,1,"20231127_163228.720/LogFile.txt","","",3

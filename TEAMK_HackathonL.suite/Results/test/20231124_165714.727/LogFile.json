@@ -1,0 +1,434 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running test.script",
+      "timestamp" : "2023-11-24 16:57:14.731 +0000"
+    },
+    {
+      "handlerName" : "on_mainmenu",
+      "message" : "at (514, 430)",
+      "identifier" : "moveto",
+      "image" : "(TEXT:\"Computers\")",
+      "handlerLine" : 2,
+      "timestamp" : "2023-11-24 16:57:16.712 +0000",
+      "scriptName" : "DAI\/home.script"
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "found at (564, 474)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"Desktops & Notebooks\")",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-24 16:57:19.033 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "at (564, 474)",
+      "timestamp" : "2023-11-24 16:57:19.123 +0000",
+      "identifier" : "click",
+      "scriptName" : "main.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "found at (436, 679)",
+      "identifier" : "waitfor",
+      "image" : "(TEXT:\"Sort by\")",
+      "handlerLine" : 5,
+      "timestamp" : "2023-11-24 16:57:21.727 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_fetch",
+      "message" : "Computers",
+      "timestamp" : "2023-11-24 16:57:21.783 +0000",
+      "identifier" : "Log",
+      "scriptName" : "apiProduct.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_selectitem",
+      "message" : "Apple MacBook Pro 13-inch",
+      "timestamp" : "2023-11-24 16:57:21.917 +0000",
+      "identifier" : "Log",
+      "scriptName" : "DAI\/itemsPage.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "Unable to Find Image (TEXT:\"Apple MacBook Pro 13-inch\") within 0.00 seconds. Text not found.",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"Apple MacBook Pro 13-inch\")",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-24 16:57:24.821 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "[pageDown]",
+      "timestamp" : "2023-11-24 16:57:24.836 +0000",
+      "identifier" : "typetext",
+      "scriptName" : "main.script",
+      "handlerLine" : 4
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "found at (524, 526)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"Apple MacBook Pro 13-inch\")",
+      "handlerLine" : 7,
+      "timestamp" : "2023-11-24 16:57:27.359 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "at (524, 526)",
+      "timestamp" : "2023-11-24 16:57:27.445 +0000",
+      "identifier" : "click",
+      "scriptName" : "main.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "found at (625, 922)",
+      "identifier" : "waitfor",
+      "image" : "(TEXT:\"SKU\")",
+      "handlerLine" : 5,
+      "timestamp" : "2023-11-24 16:57:29.865 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "[\"https:\/\/nopcommerce.eggplantlab.com\/images\/thumbs\/0000024_apple-macbook-pro-13-inch.jpeg\",\"https:\/\/nopcommerce.eggplantlab.com\/images\/thumbs\/0000025_apple-macbook-pro-13-inch.jpeg\"]",
+      "timestamp" : "2023-11-24 16:57:29.921 +0000",
+      "identifier" : "Log",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "found at (687, 924)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"AP_MBP_13\")",
+      "handlerLine" : 8,
+      "timestamp" : "2023-11-24 16:57:32.677 +0000",
+      "scriptName" : "DAI\/itemPage.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "Assertion Succeeded: (true: imagefound(0,text:global product.SKU))",
+      "timestamp" : "2023-11-24 16:57:32.678 +0000",
+      "identifier" : "LogSuccess",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 8
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "SCALEFACTORS = [0.75,1.2]",
+      "timestamp" : "2023-11-24 16:57:32.687 +0000",
+      "identifier" : "set",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "found at (1030, 607)",
+      "identifier" : "imagefound",
+      "image" : "temp\/product",
+      "handlerLine" : 15,
+      "timestamp" : "2023-11-24 16:57:33.976 +0000",
+      "scriptName" : "DAI\/itemPage.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "Assertion Succeeded: (true: imagefound(0,image:\"temp\/product\",imageTolerance:95,searchType:\"Adaptive to Image\"))",
+      "timestamp" : "2023-11-24 16:57:33.982 +0000",
+      "identifier" : "LogSuccess",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 15
+    },
+    {
+      "handlerName" : "on_mainmenu",
+      "message" : "at (514, 430)",
+      "identifier" : "moveto",
+      "image" : "(TEXT:\"Computers\")",
+      "handlerLine" : 2,
+      "timestamp" : "2023-11-24 16:57:34.908 +0000",
+      "scriptName" : "DAI\/home.script"
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "found at (564, 474)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"Desktops & Notebooks\")",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-24 16:57:36.630 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "at (564, 474)",
+      "timestamp" : "2023-11-24 16:57:36.713 +0000",
+      "identifier" : "click",
+      "scriptName" : "main.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "found at (436, 679)",
+      "identifier" : "waitfor",
+      "image" : "(TEXT:\"Sort by\")",
+      "handlerLine" : 5,
+      "timestamp" : "2023-11-24 16:57:39.298 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_fetch",
+      "message" : "Computers",
+      "timestamp" : "2023-11-24 16:57:39.345 +0000",
+      "identifier" : "Log",
+      "scriptName" : "apiProduct.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_selectitem",
+      "message" : "Samsung Series 9 NP900X4C Premium Ultrabook",
+      "timestamp" : "2023-11-24 16:57:39.565 +0000",
+      "identifier" : "Log",
+      "scriptName" : "DAI\/itemsPage.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "Unable to Find Image (TEXT:\"Samsung Series 9 NP900X4C Premium Ultrabook\") within 0.00 seconds. Text not found.",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"Samsung Series 9 NP900X4C Premium Ultrabook\")",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-24 16:57:42.402 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "[pageDown]",
+      "timestamp" : "2023-11-24 16:57:42.419 +0000",
+      "identifier" : "typetext",
+      "scriptName" : "main.script",
+      "handlerLine" : 4
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "found at (498, 1015)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"Samsung Series 9 NP900X4C Premium Ultrabook\")",
+      "handlerLine" : 7,
+      "timestamp" : "2023-11-24 16:57:47.842 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "at (498, 1015)",
+      "timestamp" : "2023-11-24 16:57:47.933 +0000",
+      "identifier" : "click",
+      "scriptName" : "main.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "found at (625, 876)",
+      "identifier" : "waitfor",
+      "image" : "(TEXT:\"SKU\")",
+      "handlerLine" : 5,
+      "timestamp" : "2023-11-24 16:57:50.649 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "[\"https:\/\/nopcommerce.eggplantlab.com\/images\/thumbs\/0000027_samsung-series-9-np900x4c-premium-ultrabook.jpeg\"]",
+      "timestamp" : "2023-11-24 16:57:50.699 +0000",
+      "identifier" : "Log",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "found at (687, 877)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"SM_900_PU\")",
+      "handlerLine" : 8,
+      "timestamp" : "2023-11-24 16:57:53.638 +0000",
+      "scriptName" : "DAI\/itemPage.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "Assertion Succeeded: (true: imagefound(0,text:global product.SKU))",
+      "timestamp" : "2023-11-24 16:57:53.639 +0000",
+      "identifier" : "LogSuccess",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 8
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "SCALEFACTORS = [0.75,1.2]",
+      "timestamp" : "2023-11-24 16:57:53.647 +0000",
+      "identifier" : "set",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "found at (500, 884)",
+      "identifier" : "imagefound",
+      "image" : "temp\/product",
+      "handlerLine" : 15,
+      "timestamp" : "2023-11-24 16:57:55.084 +0000",
+      "scriptName" : "DAI\/itemPage.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "Assertion Succeeded: (true: imagefound(0,image:\"temp\/product\",imageTolerance:95,searchType:\"Adaptive to Image\"))",
+      "timestamp" : "2023-11-24 16:57:55.091 +0000",
+      "identifier" : "LogSuccess",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 15
+    },
+    {
+      "handlerName" : "on_mainmenu",
+      "message" : "at (514, 430)",
+      "identifier" : "moveto",
+      "image" : "(TEXT:\"Computers\")",
+      "handlerLine" : 2,
+      "timestamp" : "2023-11-24 16:57:55.651 +0000",
+      "scriptName" : "DAI\/home.script"
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "found at (564, 474)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"Desktops & Notebooks\")",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-24 16:57:57.370 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "at (564, 474)",
+      "timestamp" : "2023-11-24 16:57:57.461 +0000",
+      "identifier" : "click",
+      "scriptName" : "main.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "found at (436, 679)",
+      "identifier" : "waitfor",
+      "image" : "(TEXT:\"Sort by\")",
+      "handlerLine" : 5,
+      "timestamp" : "2023-11-24 16:58:00.059 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_fetch",
+      "message" : "Computers",
+      "timestamp" : "2023-11-24 16:58:00.127 +0000",
+      "identifier" : "Log",
+      "scriptName" : "apiProduct.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_selectitem",
+      "message" : "Veno Scorp Budget Gaming PC",
+      "timestamp" : "2023-11-24 16:58:00.263 +0000",
+      "identifier" : "Log",
+      "scriptName" : "DAI\/itemsPage.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "found at (1000, 1011)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"Veno Scorp Budget Gaming PC\")",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-24 16:58:02.779 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "at (1000, 1011)",
+      "timestamp" : "2023-11-24 16:58:02.869 +0000",
+      "identifier" : "click",
+      "scriptName" : "main.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "found at (625, 796)",
+      "identifier" : "waitfor",
+      "image" : "(TEXT:\"SKU\")",
+      "handlerLine" : 5,
+      "timestamp" : "2023-11-24 16:58:07.006 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "[\"https:\/\/nopcommerce.eggplantlab.com\/images\/thumbs\/0000084_veno-scorp-budget-gaming-pc.jpeg\"]",
+      "timestamp" : "2023-11-24 16:58:07.076 +0000",
+      "identifier" : "Log",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "found at (695, 797)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"VS_BUD_GAM\")",
+      "handlerLine" : 8,
+      "timestamp" : "2023-11-24 16:58:11.010 +0000",
+      "scriptName" : "DAI\/itemPage.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "Assertion Succeeded: (true: imagefound(0,text:global product.SKU))",
+      "timestamp" : "2023-11-24 16:58:11.011 +0000",
+      "identifier" : "LogSuccess",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 8
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "SCALEFACTORS = [0.75,1.2]",
+      "timestamp" : "2023-11-24 16:58:11.019 +0000",
+      "identifier" : "set",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "Unable to Find Image temp\/product within 0.00 seconds",
+      "identifier" : "imagefound",
+      "image" : "temp\/product",
+      "handlerLine" : 15,
+      "timestamp" : "2023-11-24 16:58:11.730 +0000",
+      "scriptName" : "DAI\/itemPage.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"57.035895\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-11-24 16:57:14 +0000\", Successes:\"5\", TestCase:\"test.script\", Warnings:\"0\")",
+      "timestamp" : "2023-11-24 16:58:11.768 +0000"
+    },
+    {
+      "message" : "CapturedErrorScreenshot",
+      "timestamp" : "2023-11-24 16:58:11.843 +0000",
+      "identifier" : "Error Screen",
+      "image" : "\/Users\/markfernee\/Downloads\/Hackathon.suite\/Results\/test\/20231124_165714.727\/Screen_Error.png"
+    },
+    {
+      "message" : "AssertionFailed: (false: imagefound(0,image:\"temp\/product\",imageTolerance:95,searchType:\"Adaptive to Image\")) -- Execution Time 0:00:57 test.script",
+      "timestamp" : "2023-11-24 16:58:11.844 +0000",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2023-11-24 16:57:14.731 +0000"
+}

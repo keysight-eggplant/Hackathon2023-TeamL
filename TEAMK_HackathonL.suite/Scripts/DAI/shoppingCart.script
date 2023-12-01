@@ -1,0 +1,5 @@
+﻿to checkout
+	assert that imagefound(0,text:"$"&global product.Price, searchRectangle:(955,994,1444,1025))
+	main.navigate ("I agree with the terms of service")
+	main.navigate ("CHECKOUT"),("Welcome, Please Sign In!")
+end checkout

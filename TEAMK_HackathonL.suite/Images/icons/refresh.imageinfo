@@ -1,0 +1,18 @@
+﻿{
+    CaptureDate = "2023-11-29 21:10:22 +0000";
+    CaptureHost = "HCK-SUTS-006";
+    CaptureScreenSize = (
+        1600,
+        1200);
+    HasAlpha = 1;
+    HotSpotX = 11;
+    HotSpotY = 8;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 76;
+    OriginalLocationY = 47;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    tags = ();
+}

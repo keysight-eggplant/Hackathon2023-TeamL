@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="test">
+ <run>
+  <RunDate>2023-11-24 16:35:21.441 +0000</RunDate>
+  <Status>Aborted</Status>
+  <Duration>19.037271</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20231124_163521.441/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-11-24 16:35:57.407 +0000</RunDate>
+  <Status>Failure</Status>
+  <Duration>20.020023</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20231124_163557.407/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>AssertionFailed -- (false: imagefound(0,text:global product.Price))</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-11-24 16:38:07.971 +0000</RunDate>
+  <Status>Failure</Status>
+  <Duration>16.855326</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20231124_163807.971/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>AssertionFailed -- (false: imagefound(0,image:&quot;temp/product&quot;,imageTolerance:95,searchType:&quot;Adaptive to Image&quot;))</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-11-24 16:46:45.882 +0000</RunDate>
+  <Status>Failure</Status>
+  <Duration>70.758709</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>6</Successes>
+  <LogFile>20231124_164645.882/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>AssertionFailed -- (false: imagefound(0,text:global product.SKU))</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-11-24 16:56:35.783 +0000</RunDate>
+  <Status>Failure</Status>
+  <Duration>36.511227</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20231124_165635.783/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>AssertionFailed -- (false: imagefound(0,text:global product.SKU))</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-11-24 16:57:14.727 +0000</RunDate>
+  <Status>Failure</Status>
+  <Duration>57.039813</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>5</Successes>
+  <LogFile>20231124_165714.727/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>AssertionFailed -- (false: imagefound(0,image:&quot;temp/product&quot;,imageTolerance:95,searchType:&quot;Adaptive to Image&quot;))</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-11-24 17:07:11.228 +0000</RunDate>
+  <Status>Failure</Status>
+  <Duration>38.412685</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20231124_170711.228/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>AssertionFailed -- (false: imagefound(0,text:global product.SKU))</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-11-27 16:32:28.720 +0000</RunDate>
+  <Status>Aborted</Status>
+  <Duration>25.433656</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>3</Successes>
+  <LogFile>20231127_163228.720/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

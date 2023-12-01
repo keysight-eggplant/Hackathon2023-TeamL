@@ -1,0 +1,46 @@
+{
+  "lastmodifieddate" : 1700649404.9992452,
+  "testlocationdata" : [
+    {
+      "name" : "logos\/NopLogo.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "HCK-SUTS-005",
+      "connectionportnum" : 5909,
+      "connectiontype" : "rdp",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[87,105]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "suts.eggplantlab.com",
+      "capturerect" : [
+        146,
+        157,
+        175,
+        210
+      ]
+    }
+  ],
+  "createddate" : 1700649404.999244,
+  "lastfoundlocation" : [
+    196,
+    157,
+    175,
+    210
+  ],
+  "originalcapturelocation" : [
+    146,
+    157,
+    175,
+    210
+  ],
+  "lastfounddate" : 1701294298.161788,
+  "name" : "logos\/NopLogo"
+}

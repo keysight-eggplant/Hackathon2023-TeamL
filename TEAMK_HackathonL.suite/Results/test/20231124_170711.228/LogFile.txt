@@ -1,0 +1,32 @@
+﻿2023-11-24 17:07:11.232 +0000	START		Running test.script
+2023-11-24 17:07:13.310 +0000	moveto	(TEXT:"Computers")	at (514, 430)	2	on_mainmenu	DAI/home.script
+2023-11-24 17:07:15.770 +0000	imagefound	(TEXT:"Desktops & Notebooks")	found at (564, 474)	3	function_scrollto	main.script
+2023-11-24 17:07:15.853 +0000	click		at (564, 474)	2	on_navigate	main.script
+2023-11-24 17:07:18.651 +0000	waitfor	(TEXT:"Sort by")	found at (436, 679)	5	on_navigate	main.script
+2023-11-24 17:07:18.715 +0000	Log		Computers	2	on_fetch	apiProduct.script
+2023-11-24 17:07:18.845 +0000	Log		HP Envy 6-1180ca 15.6-Inch Sleekbook	2	on_selectitem	DAI/itemsPage.script
+2023-11-24 17:07:22.112 +0000	imagefound	(TEXT:"HP Envy 6-1180ca 15.6-Inch Sleekbook")	Unable to Find Image (TEXT:"HP Envy 6-1180ca 15.6-Inch Sleekbook") within 0.00 seconds. Text not found.	3	function_scrollto	main.script
+2023-11-24 17:07:22.129 +0000	typetext		[pageDown]	4	function_scrollto	main.script
+2023-11-24 17:07:25.546 +0000	imagefound	(TEXT:"HP Envy 6-1180ca 15.6-Inch Sleekbook")	found at (988, 535)	7	function_scrollto	main.script
+2023-11-24 17:07:25.632 +0000	click		at (988, 535)	2	on_navigate	main.script
+2023-11-24 17:07:28.134 +0000	waitfor	(TEXT:"SKU")	found at (625, 934)	5	on_navigate	main.script
+2023-11-24 17:07:28.213 +0000	Log		["https://nopcommerce.eggplantlab.com/images/thumbs/0000030_hp-envy-6-1180ca-156-inch-sleekbook.jpeg"]	2	on_validate	DAI/itemPage.script
+2023-11-24 17:07:30.968 +0000	imagefound	(TEXT:"HP_ESB_15")	found at (687, 935)	8	on_validate	DAI/itemPage.script
+2023-11-24 17:07:30.969 +0000	LogSuccess		Assertion Succeeded: (true: imagefound(0,text:global product.SKU))	8	on_validate	DAI/itemPage.script
+2023-11-24 17:07:30.977 +0000	set		SCALEFACTORS = [0.75,1.2]	14	on_validate	DAI/itemPage.script
+2023-11-24 17:07:32.245 +0000	imagefound	temp/product	found at (509, 981)	15	on_validate	DAI/itemPage.script
+2023-11-24 17:07:32.245 +0000	LogSuccess		Assertion Succeeded: (true: imagefound(0,image:"temp/product",imageTolerance:95,searchType:"Adaptive to Image"))	15	on_validate	DAI/itemPage.script
+2023-11-24 17:07:32.886 +0000	moveto	(TEXT:"Computers")	at (514, 430)	2	on_mainmenu	DAI/home.script
+2023-11-24 17:07:34.597 +0000	imagefound	(TEXT:"Desktops & Notebooks")	found at (564, 474)	3	function_scrollto	main.script
+2023-11-24 17:07:34.682 +0000	click		at (564, 474)	2	on_navigate	main.script
+2023-11-24 17:07:37.269 +0000	waitfor	(TEXT:"Sort by")	found at (436, 679)	5	on_navigate	main.script
+2023-11-24 17:07:37.316 +0000	Log		Computers	2	on_fetch	apiProduct.script
+2023-11-24 17:07:37.448 +0000	Log		Digital Storm VANQUISH 3 Custom Performance PC	2	on_selectitem	DAI/itemsPage.script
+2023-11-24 17:07:38.933 +0000	imagefound	(TEXT:"Digital Storm VANQUISH 3 Custom Performance PC")	found at (521, 1011)	3	function_scrollto	main.script
+2023-11-24 17:07:39.022 +0000	click		at (521, 1011)	2	on_navigate	main.script
+2023-11-24 17:07:42.939 +0000	waitfor	(TEXT:"SKU")	found at (625, 796)	5	on_navigate	main.script
+2023-11-24 17:07:43.013 +0000	Log		["https://nopcommerce.eggplantlab.com/images/thumbs/0000022_digital-storm-vanquish-3-custom-performance-pc.jpeg"]	2	on_validate	DAI/itemPage.script
+2023-11-24 17:07:49.594 +0000	imagefound	(TEXT:"DS_VA3_PC")	Unable to Find Image (TEXT:"DS_VA3_PC") within 0.00 seconds. Text not found.	8	on_validate	DAI/itemPage.script
+2023-11-24 17:07:49.641 +0000	EndTestCase		(Duration:"38.408099", Errors:"1", Exceptions:"0", StartTime:"2023-11-24 17:07:11 +0000", Successes:"2", TestCase:"test.script", Warnings:"0")
+2023-11-24 17:07:49.716 +0000	Error Screen	/Users/markfernee/Downloads/Hackathon.suite/Results/test/20231124_170711.228/Screen_Error.png	CapturedErrorScreenshot	321F6324-9251-457C-B275-C449A4528007
+2023-11-24 17:07:49.717 +0000	FAILURE	Screen_Error.png	AssertionFailed: (false: imagefound(0,text:global product.SKU)) -- Execution Time 0:00:38 test.script

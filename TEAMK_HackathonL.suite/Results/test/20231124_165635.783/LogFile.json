@@ -1,0 +1,265 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running test.script",
+      "timestamp" : "2023-11-24 16:56:35.792 +0000"
+    },
+    {
+      "handlerName" : "on_mainmenu",
+      "message" : "at (514, 430)",
+      "identifier" : "moveto",
+      "image" : "(TEXT:\"Computers\")",
+      "handlerLine" : 2,
+      "timestamp" : "2023-11-24 16:56:37.984 +0000",
+      "scriptName" : "DAI\/home.script"
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "found at (564, 474)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"Desktops & Notebooks\")",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-24 16:56:40.339 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "at (564, 474)",
+      "timestamp" : "2023-11-24 16:56:40.428 +0000",
+      "identifier" : "click",
+      "scriptName" : "main.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "found at (436, 679)",
+      "identifier" : "waitfor",
+      "image" : "(TEXT:\"Sort by\")",
+      "handlerLine" : 5,
+      "timestamp" : "2023-11-24 16:56:43.044 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_fetch",
+      "message" : "Computers",
+      "timestamp" : "2023-11-24 16:56:43.094 +0000",
+      "identifier" : "Log",
+      "scriptName" : "apiProduct.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_selectitem",
+      "message" : "Lenovo Thinkpad X1 Carbon Laptop",
+      "timestamp" : "2023-11-24 16:56:43.232 +0000",
+      "identifier" : "Log",
+      "scriptName" : "DAI\/itemsPage.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "Unable to Find Image (TEXT:\"Lenovo Thinkpad X1 Carbon Laptop\") within 0.00 seconds. Text not found.",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"Lenovo Thinkpad X1 Carbon Laptop\")",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-24 16:56:46.061 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "[pageDown]",
+      "timestamp" : "2023-11-24 16:56:46.079 +0000",
+      "identifier" : "typetext",
+      "scriptName" : "main.script",
+      "handlerLine" : 4
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "found at (972, 1006)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"Lenovo Thinkpad X1 Carbon Laptop\")",
+      "handlerLine" : 7,
+      "timestamp" : "2023-11-24 16:56:49.420 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "at (972, 1006)",
+      "timestamp" : "2023-11-24 16:56:49.508 +0000",
+      "identifier" : "click",
+      "scriptName" : "main.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "found at (625, 820)",
+      "identifier" : "waitfor",
+      "image" : "(TEXT:\"SKU\")",
+      "handlerLine" : 5,
+      "timestamp" : "2023-11-24 16:56:52.004 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "[\"https:\/\/nopcommerce.eggplantlab.com\/images\/thumbs\/0000031_lenovo-thinkpad-x1-carbon-laptop.jpeg\"]",
+      "timestamp" : "2023-11-24 16:56:52.056 +0000",
+      "identifier" : "Log",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "found at (686, 820)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"LE_TX1_CL\")",
+      "handlerLine" : 8,
+      "timestamp" : "2023-11-24 16:56:54.307 +0000",
+      "scriptName" : "DAI\/itemPage.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "Assertion Succeeded: (true: imagefound(0,text:global product.SKU))",
+      "timestamp" : "2023-11-24 16:56:54.308 +0000",
+      "identifier" : "LogSuccess",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 8
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "SCALEFACTORS = [0.75,1.2]",
+      "timestamp" : "2023-11-24 16:56:54.316 +0000",
+      "identifier" : "set",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "found at (500, 906)",
+      "identifier" : "imagefound",
+      "image" : "temp\/product",
+      "handlerLine" : 15,
+      "timestamp" : "2023-11-24 16:56:55.355 +0000",
+      "scriptName" : "DAI\/itemPage.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "Assertion Succeeded: (true: imagefound(0,image:\"temp\/product\",imageTolerance:95,searchType:\"Adaptive to Image\"))",
+      "timestamp" : "2023-11-24 16:56:55.356 +0000",
+      "identifier" : "LogSuccess",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 15
+    },
+    {
+      "handlerName" : "on_mainmenu",
+      "message" : "at (514, 430)",
+      "identifier" : "moveto",
+      "image" : "(TEXT:\"Computers\")",
+      "handlerLine" : 2,
+      "timestamp" : "2023-11-24 16:56:55.923 +0000",
+      "scriptName" : "DAI\/home.script"
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "found at (564, 474)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"Desktops & Notebooks\")",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-24 16:56:57.773 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "at (564, 474)",
+      "timestamp" : "2023-11-24 16:56:57.861 +0000",
+      "identifier" : "click",
+      "scriptName" : "main.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "found at (436, 679)",
+      "identifier" : "waitfor",
+      "image" : "(TEXT:\"Sort by\")",
+      "handlerLine" : 5,
+      "timestamp" : "2023-11-24 16:57:00.451 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_fetch",
+      "message" : "Computers",
+      "timestamp" : "2023-11-24 16:57:00.499 +0000",
+      "identifier" : "Log",
+      "scriptName" : "apiProduct.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_selectitem",
+      "message" : "Digital Storm VANQUISH 3 Custom Performance PC",
+      "timestamp" : "2023-11-24 16:57:00.731 +0000",
+      "identifier" : "Log",
+      "scriptName" : "DAI\/itemsPage.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "function_scrollto",
+      "message" : "found at (521, 1011)",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"Digital Storm VANQUISH 3 Custom Performance PC\")",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-24 16:57:01.977 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "at (521, 1011)",
+      "timestamp" : "2023-11-24 16:57:02.067 +0000",
+      "identifier" : "click",
+      "scriptName" : "main.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_navigate",
+      "message" : "found at (625, 796)",
+      "identifier" : "waitfor",
+      "image" : "(TEXT:\"SKU\")",
+      "handlerLine" : 5,
+      "timestamp" : "2023-11-24 16:57:06.112 +0000",
+      "scriptName" : "main.script"
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "[\"https:\/\/nopcommerce.eggplantlab.com\/images\/thumbs\/0000022_digital-storm-vanquish-3-custom-performance-pc.jpeg\"]",
+      "timestamp" : "2023-11-24 16:57:06.161 +0000",
+      "identifier" : "Log",
+      "scriptName" : "DAI\/itemPage.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_validate",
+      "message" : "Unable to Find Image (TEXT:\"DS_VA3_PC\") within 0.00 seconds. Text not found.",
+      "identifier" : "imagefound",
+      "image" : "(TEXT:\"DS_VA3_PC\")",
+      "handlerLine" : 8,
+      "timestamp" : "2023-11-24 16:57:12.250 +0000",
+      "scriptName" : "DAI\/itemPage.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"36.501212\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-11-24 16:56:35 +0000\", Successes:\"2\", TestCase:\"test.script\", Warnings:\"0\")",
+      "timestamp" : "2023-11-24 16:57:12.295 +0000"
+    },
+    {
+      "message" : "CapturedErrorScreenshot",
+      "timestamp" : "2023-11-24 16:57:12.372 +0000",
+      "identifier" : "Error Screen",
+      "image" : "\/Users\/markfernee\/Downloads\/Hackathon.suite\/Results\/test\/20231124_165635.783\/Screen_Error.png"
+    },
+    {
+      "message" : "AssertionFailed: (false: imagefound(0,text:global product.SKU)) -- Execution Time 0:00:36 test.script",
+      "timestamp" : "2023-11-24 16:57:12.373 +0000",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2023-11-24 16:56:35.793 +0000"
+}
