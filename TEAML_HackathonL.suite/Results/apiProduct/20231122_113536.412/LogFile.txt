@@ -1,4 +1,0 @@
-﻿2023-11-22 11:35:36.414 +0000	START		Running api_product.script
-2023-11-22 11:35:36.684 +0000	Log		[{Categories:"Camera & photo", IsShipEnabled:"True", Name:"Nikon D6500 DSLR - Black", Pictures:"0000037_nikon-d6500-dslr-black.jpeg", Price:670, ProductId:14, SKU:"N6500DS_B"}]	9	on_api_product	api_product.script
-2023-11-22 11:35:36.692 +0000	EndTestCase		(Duration:"0.263763", Errors:"0", Exceptions:"0", StartTime:"2023-11-22 11:35:36 +0000", Successes:"1", TestCase:"api_product.script", Warnings:"0")
-2023-11-22 11:35:36.736 +0000	SUCCESS		Execution Time 0:00:00 api_product.script

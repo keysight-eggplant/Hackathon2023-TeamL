@@ -1,4 +1,0 @@
-﻿to selectItem
-	log global product.name
-	main.navigate (global product.Name),("SKU")
-end selectItem

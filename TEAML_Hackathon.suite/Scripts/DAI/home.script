@@ -1,0 +1,8 @@
+﻿
+to mainMenu category, subCategory
+	moveto text:category,searchRectangle:(your_browser_searchRectangle)
+	wait 0.5 // animation of dropdown to complete
+	//navigation function (subCategory),("Sort by")
+	//apicall (category),(subCategory)
+end mainMenu
+

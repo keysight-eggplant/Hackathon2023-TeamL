@@ -1,6 +1,0 @@
-﻿
-to fetch category,subCategory
-	put get() into t 
-	put each item of JSONVALUE(t.responseBody) whose "Categories" is category and whose "SubCategories" is subCategory into product
-	put item random(1,number of items in product) of product into global product
-end fetch 

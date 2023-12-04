@@ -1,8 +1,0 @@
-﻿2023-11-24 16:35:21.444 +0000	START		Running test.script
-2023-11-24 16:35:22.418 +0000	moveto	(TEXT:"Computers")	at (514, 430)	2	on_mainmenu	DAI/home.script
-2023-11-24 16:35:24.292 +0000	imagefound	(TEXT:"Desktops & Notebooks")	found at (564, 474)	3	function_scrollto	main.script
-2023-11-24 16:35:24.381 +0000	click		at (564, 474)	2	on_navigate	main.script
-2023-11-24 16:35:40.012 +0000	LogWarning		Unable to Find Text: Sort by -- AutoUpdate engaged	5	on_navigate	main.script
-2023-11-24 16:35:40.429 +0000	Exception	(TEXT:"Sort by")	Unable To Find Any Image On Screen "(TEXT:"Sort by")" within 10.00 seconds. Text not found.	5	on_navigate	main.script
-2023-11-24 16:35:40.479 +0000	EndTestCase		(Duration:"19.027982", Errors:"1", Exceptions:"1", StartTime:"2023-11-24 16:35:21 +0000", Successes:"0", TestCase:"test.script", Warnings:"1")
-2023-11-24 16:35:40.482 +0000	ABORTED		Execution Time 0:00:19 test.script
